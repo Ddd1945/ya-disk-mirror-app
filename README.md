@@ -1,8 +1,8 @@
-# yandex disk mirror app
+## Yandex Disk Mirror App
 
 You can test this app here - http://13.60.98.194/
 
-# Task:
+## Task:
 
 Create a web application using Flask or Django that interacts with the Yandex.Disk API.
 
@@ -14,7 +14,7 @@ The application should implement the following functionality:
 2. Downloading specific files:
    The user should be able to select files from the list and download them to their local computer via the web application's interface.
 
-# Technical requirements:
+## Technical requirements:
 
 - Use Flask or Django as the web framework.
 
@@ -24,7 +24,7 @@ The application should implement the following functionality:
 
 - The application should have a simple web interface to display the list of files and provide buttons for downloading them.
 
-# Additional requirements:
+## Additional requirements:
 
 - You can use the `requests`/`aiohttp` library or any other HTTP client library to work with the Yandex.Disk API.
 
@@ -32,7 +32,7 @@ The application should implement the following functionality:
 
 - The code should be uploaded to GitHub or a similar service with a commit history.
 
-# Evaluation criteria:
+## Evaluation criteria:
 
 - Correct implementation of authorization and API interaction.
 
@@ -44,7 +44,7 @@ The application should implement the following functionality:
 
 - Compliance with the technical and additional requirements of the task.
 
-# Optional tasks (not mandatory, but would be a plus):
+## Optional tasks (not mandatory, but would be a plus):
 
 1. Implement file filtering by type (e.g., documents only or images only).
 
@@ -52,9 +52,9 @@ The application should implement the following functionality:
 
 3. Implement caching of the file list so that it doesn’t have to be fetched from the server each time.
 
-# Installation
+## Installation
 
-## Python 3.12.3
+### Python 3.12.3
 
 1. Create a virtual enviroment
 
