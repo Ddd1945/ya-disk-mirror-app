@@ -1,6 +1,6 @@
 ## Yandex Disk Mirror App
 
-You can test this app here - http://13.60.98.194/
+You can test this app here - https://13.60.250.255/
 
 [Screencast from 2024-09-15 01-39-42.webm](https://github.com/user-attachments/assets/1af30d3c-af7c-4798-ad1c-0036dff8675b)
 
