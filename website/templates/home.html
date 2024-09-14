@@ -1,0 +1,40 @@
+{% extends "base.html" %} {% block title %}Главная{% endblock %} {% block
+content %}
+
+<fieldset class="disk_container">
+  <legend>
+    <input
+      type="text"
+      id="directory_link"
+      name="directory_link"
+      placeholder="Enter 'Link' or 'Key' to publicly available yandex disk"
+    />
+
+    <button id="search_button" onclick="getDiskData()">Search</button>
+  </legend>
+
+  <img
+    src="../static/svg/back.svg"
+    width="21 "
+    height="21"
+    class="back_button"
+    onclick="getDiskData(null, true)"
+  />
+
+  <div class="loader_container">
+    <img
+      src="../static/gif/loader.gif"
+      width="75"
+      height="75"
+      class="loader_image"
+    />
+  </div>
+
+  <div id="disk_files">
+    <h3 id="starter_hint" align="center">
+      App that serves as a mirror for publicly available yandex disk...
+    </h3>
+  </div>
+</fieldset>
+
+{% endblock %}
