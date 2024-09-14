@@ -6,13 +6,10 @@ from flask_login import (
     login_required,
     logout_user,
     current_user,
-    login_manager
 )
 
 
 auth = Blueprint('auth', __name__)
-
-login_manager.LOGIN_MESSAGE = "Выполните авторизацию, чтобы получить доступ к программе."
 
 
 @auth.route('/login', methods=['GET', 'POST'])
