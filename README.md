@@ -63,3 +63,5 @@ The application should implement the following functionality:
 3. Run main.py
 
 4. App will be available at the address provided in `config.py`
+
+5. To test app, login to default user. Login - admin, Password - 12345678 
