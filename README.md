@@ -64,4 +64,4 @@ The application should implement the following functionality:
 
 4. App will be available at the address provided in `config.py`
 
-5. To test an application, login to default user. Login - `admin`, Password - `12345678`. Then, Paste to the bar bar link to publicly available yandex disk. It might be full link - `https://disk.yandex.ru/d/coIIrxEva7kPoQ` or just a public key - `coIIrxEva7kPoQ`. Press search button to get data from disk on website.
+5. To test an application, login to default user. Login - `admin`, Password - `12345678`. Then, Paste to the bar link to publicly available yandex disk. It might be full link - `https://disk.yandex.ru/d/coIIrxEva7kPoQ` or just a public key - `coIIrxEva7kPoQ`. Press search button to get data from disk on website.
