@@ -56,7 +56,7 @@ The application should implement the following functionality:
 
 ### Python 3.12.3
 
-1. Create a virtual enviroment
+1. Create and activate a virtual enviroment
 
 2. Install libs from `requirements.txt`
 
