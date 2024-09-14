@@ -18,7 +18,7 @@ You can test this app here - http://13.60.98.194/
 
 ## Usage
 
-To test an application, login to default user. Login - `admin`, Password - `12345678`. Then, Paste to the bar link to publicly available yandex disk. It might be a full link - `https://disk.yandex.ru/d/coIIrxEva7kPoQ` or just a public key - `coIIrxEva7kPoQ`. Press search button to get data from disk on website. By clicking on elemenets, you can navigate via folders (back and forth) and download files.
+To test an application, login to default user. Login - `admin`, Password - `12345678`. Then, Paste to the search bar link to publicly available yandex disk. It might be a full link - `https://disk.yandex.ru/d/coIIrxEva7kPoQ` or just a public key - `coIIrxEva7kPoQ`. Press `search` button to get data from disk on website. By clicking on elemenets, you can navigate via folders (back and forth) and download files.
 
 ## Task:
 
