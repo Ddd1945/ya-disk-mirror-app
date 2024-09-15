@@ -10,7 +10,7 @@ You can test this app here - https://13.60.250.255/
 
 1. Create and activate a virtual enviroment
 
-2. Install libs from `requirements.txt`
+2. Install packages from `requirements.txt`
 
 3. Run `main.py`
 
