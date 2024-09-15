@@ -14,7 +14,7 @@ You can test this app here - https://13.60.250.255/
 
 3. Run `main.py`
 
-4. App will be available at the address provided in `config.py`
+4. App will be available at the address provided in `website/config.py`
 
 ## Usage
 
