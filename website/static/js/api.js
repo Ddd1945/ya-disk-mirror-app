@@ -32,8 +32,6 @@ function getDiskData(dirPath = null, goBack = false) {
       disk_files_container.empty();
 
       for (let i = 0; i < items.length; i++) {
-        console.log(items[i].name);
-
         $("#disk_files").append(
           `
             <span class="disk_item">
