@@ -76,27 +76,25 @@ function handleYaDownload(link, name) {
 
       const url = window.URL.createObjectURL(blob);
 
-      const a = document.createElement("a");
+      const $a = $("<a></a>");
 
-      a.href = url;
+      $a.attr("href", url);
 
       const contentDisposition = xhr.getResponseHeader("Content-Disposition");
-
-      let filename = name;
 
       if (contentDisposition) {
         const matches = /filename="([^"]+)"/.exec(contentDisposition);
 
-        if (matches != null && matches[1]) filename = matches[1];
+        if (matches != null && matches[1]) name = matches[1];
       }
 
-      a.download = filename;
+      $a.attr("download", name);
 
-      document.body.appendChild(a);
+      $("body").append($a);
 
-      a.click();
+      $a[0].click();
 
-      document.body.removeChild(a);
+      $a.remove();
 
       window.URL.revokeObjectURL(url);
     },
