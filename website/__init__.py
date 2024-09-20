@@ -5,14 +5,13 @@ from werkzeug.security import generate_password_hash
 from . import config
 
 db = SQLAlchemy()
-DB_NAME = config.DB_NAME
 
 app = Flask(__name__)
 
 
 def create_app():
     app.config['SECRET_KEY'] = config.SECRET_KEY
-    app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{DB_NAME}'
+    app.config['SQLALCHEMY_DATABASE_URI'] = f'sqlite:///{config.DB_NAME}'
 
     db.init_app(app)
 
